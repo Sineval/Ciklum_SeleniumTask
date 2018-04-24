@@ -95,7 +95,7 @@ namespace CiklumSeleniumTask
         [TearDown]
         public void TearDown()
         {
-            driver.Close();
+            driver.Quit();
         }
     }
 }
